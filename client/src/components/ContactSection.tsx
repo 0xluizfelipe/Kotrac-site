@@ -52,13 +52,13 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contato" className="py-20 md:py-32 bg-white">
+    <section id="contato" className="py-20 md:py-32 bg-blue-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: 'Poppins' }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Poppins' }}>
             Solicite um <span className="text-orange-600">orcamento</span>
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-200 text-lg max-w-2xl mx-auto">
             Entre em contato com nossa equipe tecnica. Atendemos com agilidade e oferecemos analise especializada para cada demanda.
           </p>
         </div>
@@ -67,7 +67,7 @@ export default function ContactSection() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Poppins' }}>
+              <h3 className="text-2xl font-bold text-white mb-6" style={{ fontFamily: 'Poppins' }}>
                 Informacoes de Contato
               </h3>
             </div>
@@ -77,13 +77,13 @@ export default function ContactSection() {
               return (
                 <div key={index} className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-orange-100">
-                      <IconComponent className="h-6 w-6 text-orange-600" />
+                    <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-orange-600">
+                      <IconComponent className="h-6 w-6 text-white" />
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-gray-900">{info.label}</h4>
-                    <p className="text-gray-600 mt-1">{info.value}</p>
+                    <h4 className="text-lg font-bold text-white">{info.label}</h4>
+                    <p className="text-gray-300 mt-1">{info.value}</p>
                   </div>
                 </div>
               );
@@ -104,17 +104,17 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gray-50 rounded-lg p-8 shadow-md">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Poppins' }}>
+          <div className="bg-blue-800 rounded-lg p-8 shadow-md">
+            <h3 className="text-2xl font-bold text-white mb-6" style={{ fontFamily: 'Poppins' }}>
               Envie sua mensagem
             </h3>
-            <p className="text-gray-600 text-sm mb-6">
+            <p className="text-gray-300 text-sm mb-6">
               Preencha o formulario e nossa equipe retornara em ate 1 dia util.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="nome" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="nome" className="block text-sm font-medium text-white mb-2">
                   Nome
                 </label>
                 <input
@@ -125,12 +125,12 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="Seu nome completo"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-gray-300 focus:border-orange-600 focus:outline-none transition-colors bg-transparent"
+                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
               <div>
-                <label htmlFor="empresa" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="empresa" className="block text-sm font-medium text-white mb-2">
                   Empresa
                 </label>
                 <input
@@ -141,12 +141,12 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="Razao social ou nome"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-gray-300 focus:border-orange-600 focus:outline-none transition-colors bg-transparent"
+                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   E-mail
                 </label>
                 <input
@@ -157,12 +157,12 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="contato@suaempresa.com.br"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-gray-300 focus:border-orange-600 focus:outline-none transition-colors bg-transparent"
+                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
               <div>
-                <label htmlFor="telefone" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="telefone" className="block text-sm font-medium text-white mb-2">
                   Telefone / WhatsApp
                 </label>
                 <input
@@ -173,12 +173,12 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="(00) 00000-0000"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-gray-300 focus:border-orange-600 focus:outline-none transition-colors bg-transparent"
+                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
               <div>
-                <label htmlFor="mensagem" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="mensagem" className="block text-sm font-medium text-white mb-2">
                   Mensagem
                 </label>
                 <textarea
@@ -189,7 +189,7 @@ export default function ContactSection() {
                   placeholder="Descreva o componente, a falha observada e a urgencia do atendimento..."
                   rows={4}
                   required
-                  className="w-full px-4 py-2 border-b-2 border-gray-300 focus:border-orange-600 focus:outline-none transition-colors bg-transparent resize-none"
+                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent resize-none text-white placeholder-gray-400"
                 ></textarea>
               </div>
 
