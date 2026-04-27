@@ -52,7 +52,7 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contato" className="py-20 md:py-32 bg-blue-900">
+    <section id="contato" className="py-20 md:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Poppins' }}>
@@ -104,7 +104,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-blue-800 rounded-lg p-8 shadow-md">
+          <div className="bg-gray-800 rounded-lg p-8 shadow-md">
             <h3 className="text-2xl font-bold text-white mb-6" style={{ fontFamily: 'Poppins' }}>
               Envie sua mensagem
             </h3>
@@ -125,7 +125,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="Seu nome completo"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-2 border-b-2 border-gray-700 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
@@ -141,7 +141,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="Razao social ou nome"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-2 border-b-2 border-gray-700 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
@@ -157,7 +157,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="contato@suaempresa.com.br"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-2 border-b-2 border-gray-700 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
@@ -173,7 +173,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="(00) 00000-0000"
                   required
-                  className="w-full px-4 py-2 border-b-2 border-blue-600 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-2 border-b-2 border-gray-700 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-white placeholder-gray-400"
                 />
               </div>
 
