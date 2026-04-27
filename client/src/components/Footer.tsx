@@ -7,11 +7,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-orange-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">K</span>
-              </div>
-              <h3 className="text-lg font-bold text-white" style={{ fontFamily: 'Poppins' }}>KOTRAC</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/manus-storage/photo_AQADGAxrG9GrgUd-_2a8005a9.jpg"
+                alt="Kotrac Logo"
+                className="h-10 w-auto object-contain"
+              />
             </div>
             <p className="text-sm text-gray-400">
               Especialistas em hidraulica mobil desde 1985. Qualidade, precisao e confiabilidade.

@@ -14,14 +14,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">K</span>
-          </div>
-          <div className="hidden sm:block">
-            <h1 className="text-lg font-bold text-gray-900" style={{ fontFamily: 'Poppins' }}>KOTRAC</h1>
-            <p className="text-xs text-gray-600">Hidraulica Mobil</p>
-          </div>
+        <div className="flex items-center gap-3">
+          <img
+            src="/manus-storage/photo_AQADGAxrG9GrgUd-_2a8005a9.jpg"
+            alt="Kotrac Logo"
+            className="h-12 w-auto object-contain"
+          />
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
