@@ -42,7 +42,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       label: 'Telefone',
-      value: '(21) 2573-6833 / (21) 97043-0627',
+      value: '(21) 2573-6833 / (21) 97043-0627 / (21) 97041-1449',
     },
     {
       icon: Mail,
