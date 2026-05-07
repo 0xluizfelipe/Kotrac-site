@@ -32,7 +32,7 @@ export default function GallerySection() {
       id: 5,
       category: 'motores',
       title: 'Motores Hidraulicos',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80',
+      image: '/manus-storage/IMG_1919_7c78e6a7.PNG',
     },
   ];
 
