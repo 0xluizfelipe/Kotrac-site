@@ -5,6 +5,7 @@ import TimelineSection from '@/components/TimelineSection';
 import ServicesSection from '@/components/ServicesSection';
 import GallerySection from '@/components/GallerySection';
 import ContactSection from '@/components/ContactSection';
+import MapSection from '@/components/MapSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <ServicesSection />
       <GallerySection />
       <ContactSection />
+      <MapSection />
       <Footer />
     </div>
   );
