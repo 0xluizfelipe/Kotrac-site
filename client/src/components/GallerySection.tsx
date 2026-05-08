@@ -30,6 +30,12 @@ export default function GallerySection() {
     },
     {
       id: 5,
+      category: 'comandos',
+      title: 'Comandos Hidraulicos',
+      image: '/manus-storage/IMG-20260507-WA0062_930ea3a3.jpg',
+    },
+    {
+      id: 6,
       category: 'motores',
       title: 'Motores Hidraulicos',
       image: '/manus-storage/IMG_1919_7c78e6a7.PNG',
@@ -42,6 +48,7 @@ export default function GallerySection() {
     { id: 'cilindros', label: 'Cilindros Hidraulicos' },
     { id: 'valvulas', label: 'Valvulas e Componentes' },
     { id: 'oficina', label: 'Oficina Tecnica' },
+    { id: 'comandos', label: 'Comandos Hidraulicos' },
     { id: 'motores', label: 'Motores Hidraulicos' },
   ];
 
