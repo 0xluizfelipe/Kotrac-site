@@ -1,0 +1,25 @@
+name = "kotrac-site"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+name = "kotrac-site-prod"
+routes = [
+  { pattern = "kotracmob-9qvvmems.manus.space", zone_name = "manus.space" }
+]
+
+[build]
+command = "pnpm install && pnpm run build:static"
+cwd = "./"
+watch_paths = ["client/src/**/*.{ts,tsx,css}"]
+
+[build.upload]
+format = "service-worker"
+main = "./dist/public/index.html"
+
+[env.production.build]
+command = "pnpm install && pnpm run build:static"
+cwd = "./"
